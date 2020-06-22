@@ -14,6 +14,7 @@ const Discord = require('discord.js')
 module.exports.run = async (bot, message, args) => {
 
 
+  ```js
   let user = message.mentions.users.first();
   let razon = args.slice(1).join(" ");
   var perms = message.member.hasPermission("BAN_MEMBERS");
@@ -29,7 +30,7 @@ module.exports.run = async (bot, message, args) => {
   .addField("Razon:", `${razon}`)
   .addField("Autor del baneo:", `${message.author}`)
   message.channel.send(embed)
-}
+}```
 
 
 
