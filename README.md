@@ -30,7 +30,9 @@ module.exports.run = async (bot, message, args) => {
   .addField("Razon:", `${razon}`)
   .addField("Autor del baneo:", `${message.author}`)
   message.channel.send(embed)
-}```
+}
+
+#HOLA
 
 
 
